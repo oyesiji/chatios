@@ -8,10 +8,12 @@
 
 import UIKit
 
+
 class ChatVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
     }
@@ -22,6 +24,7 @@ class ChatVC: UIViewController {
     }
     
 
+    @IBOutlet weak var menuBtn: UIButton!
     /*
     // MARK: - Navigation
 
@@ -31,5 +34,9 @@ class ChatVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func invokeSWMenu(_ sender: Any) {
+        SWRevealViewController.revealToggle();
+    }
+    
+    @IBOutlet weak var invokeMenu: UIButton!
 }

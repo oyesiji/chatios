@@ -62,6 +62,7 @@
 		B05077F41FC324BF006B6A93 = {
 			isa = PBXGroup;
 			children = (
+				B05078151FC32F2D006B6A93 /* Supporting Files */,
 				B05077FF1FC324BF006B6A93 /* Smack */,
 				B05077FE1FC324BF006B6A93 /* Products */,
 				9494E94802355D5A2DE5CF5B /* Pods */,
@@ -83,7 +84,6 @@
 				B050781C1FC33355006B6A93 /* Model */,
 				B050781B1FC3334D006B6A93 /* View */,
 				B050781A1FC33337006B6A93 /* Controller */,
-				B05078151FC32F2D006B6A93 /* Supporting Files */,
 				B05078001FC324BF006B6A93 /* AppDelegate.swift */,
 				B05078021FC324BF006B6A93 /* ViewController.swift */,
 				B05078041FC324BF006B6A93 /* Main.storyboard */,
